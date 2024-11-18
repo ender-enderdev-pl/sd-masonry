@@ -47,7 +47,7 @@
 
 .modal-content {
   display: block;
-  background-color: #fff; /* White background for the modal content */
+  background-color: var(--body-background-fill);
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -90,7 +90,7 @@
 }
 .modal-info {
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
 }
 
 /* Style for info-group */
@@ -113,7 +113,7 @@
 
 /* Style for the "well" effect */
 .well {
-  background-color: #f7f7f7;
+  background-color: var(--input-background-fill);
 }
 
 /* Style for the close button */
